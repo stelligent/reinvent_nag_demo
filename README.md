@@ -20,3 +20,7 @@ but probably don't have to be so strict:
 * Login to the VM and do your worst:
       * `kitchen login`
       * `ls -l /srv`
+      * `cfn_nag --input-json-path /srv/security_group_without_explicit_egress.json`
+      * `cfn_nag --input-json-path /srv/security_group_with_explicit_egress.json`
+      * `cfn_nag --input-json-path /srv/ebs_volume_without_server_side_encryption.json`
+      * `cfn_nag --input-json-path /srv/ebs_volume_with_server_side_encryption.json`
