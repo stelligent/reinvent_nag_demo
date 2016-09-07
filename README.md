@@ -1,9 +1,9 @@
 # Installation
-This is tested on a MacOSX with 10.11.6
+This is tested on MacOSX version 10.11.6
 
 ## Prerequisites
 The following explicit versions were used.  Mileage will vary with other versions
-but probably don't have to be so strict:
+but the versions probably don't have to be so strict:
 
 * Install Virtual Box (5.0.26 r108824)
       * https://www.virtualbox.org/wiki/Downloads
