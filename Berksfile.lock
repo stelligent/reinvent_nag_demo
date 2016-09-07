@@ -1,0 +1,13 @@
+DEPENDENCIES
+  reinvent_nag_demo
+    path: .
+    metadata: true
+
+GRAPH
+  apt (4.0.2)
+    compat_resource (>= 12.10)
+  brightbox-ruby (1.2.2)
+    apt (>= 0.0.0)
+  compat_resource (12.14.0)
+  reinvent_nag_demo (0.1.0)
+    brightbox-ruby (= 1.2.2)
